@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Atulyam 2k18</string>
+    <string name="title_activity_main">Eventos de Atulyam</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">LOG IN</string>
+    <string name="not_a_member_signup">NOT A MEMBER ? SIGN UP</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="name">Name</string>
+    <string name="roll_no">Roll N0.</string>
+    <string name="noti_toolbar">Notification</string>
+    <string name="linked_in">via LinkedIn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

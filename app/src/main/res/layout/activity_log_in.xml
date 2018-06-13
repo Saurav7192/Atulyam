@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login"
+    android:orientation="vertical"
+    tools:context="com.sauravkumar71920gmail.atulyam.LogInActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_48x"
+        android:layout_marginTop="@dimen/dimen_64x"
+        app:srcCompat="@mipmap/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="@dimen/dimen_32x">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_32x"
+            android:layout_marginRight="@dimen/dimen_32x"
+            android:background="@drawable/trns_background"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatAutoCompleteTextView
+                android:id="@+id/loginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_32x"
+                android:background="@drawable/rounded_white"
+                android:drawableLeft="@mipmap/user_icon_login"
+                android:drawablePadding="@dimen/dimen_8x"
+                android:hint="@string/email"
+                android:paddingBottom="@dimen/dimen_8x"
+                android:paddingLeft="@dimen/dimen_8x"
+                android:paddingRight="@dimen/dimen_32x"
+                android:paddingTop="@dimen/dimen_8x" />
+
+            <android.support.v7.widget.AppCompatAutoCompleteTextView
+                android:id="@+id/loginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_32x"
+                android:background="@drawable/rounded_white"
+                android:drawableLeft="@mipmap/password_login"
+                android:drawablePadding="@dimen/dimen_8x"
+                android:hint="@string/password"
+                android:paddingBottom="@dimen/dimen_8x"
+                android:paddingLeft="@dimen/dimen_8x"
+                android:paddingRight="@dimen/dimen_32x"
+                android:paddingTop="@dimen/dimen_8x"
+                android:password="true" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/loginAppButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_48x"
+                android:layout_marginLeft="@dimen/dimen_32x"
+                android:layout_marginRight="@dimen/dimen_32x"
+                android:layout_marginTop="@dimen/dimen_32x"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:fadingEdge="none"
+                android:text="@string/log_in"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_20x"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_80x"
+                android:text="@string/not_a_member_signup"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="@dimen/dimen_16x"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_marginTop="@dimen/dimen_4x"
+                android:background="@color/dark_grey" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

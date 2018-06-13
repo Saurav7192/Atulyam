@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "460713498192",
+    "firebase_url": "https://atulyam-2k18-fe346.firebaseio.com",
+    "project_id": "atulyam-2k18-fe346",
+    "storage_bucket": "atulyam-2k18-fe346.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460713498192:android:f39a2fa5f8ff9f06",
+        "android_client_info": {
+          "package_name": "com.sauravkumar71920gmail.atulyam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460713498192-4f3nvrlvc6gcia52oe8k4shqg4rp0qa8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsB26CKgQLvArqC-Z7QtRlhajof0kYm6Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
